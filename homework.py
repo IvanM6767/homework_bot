@@ -45,7 +45,7 @@ def send_message(bot, message):
             exc_info=True
         )
     else:
-        logging.debug(f'Сообщение не удалось отправить: {message}')
+        logging.debug(f'Сообщение удалось отправить: {message}')
 
 
 def get_api_answer(timestamp):
